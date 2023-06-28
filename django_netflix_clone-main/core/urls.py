@@ -11,3 +11,5 @@ urlpatterns = [
     path('movie/detail/<str:movie_id>/',ShowMovieDetail.as_view(),name='show_det'),
     path('movie/play/<str:movie_id>/',ShowMovie.as_view(),name='play')
 ]
+
+
